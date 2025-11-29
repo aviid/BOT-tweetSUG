@@ -1,0 +1,31 @@
+{
+  "name": "deepseek-tweet-suggester",
+  "version": "2.0.0",
+  "description": "Secure bot that suggests tweets using DeepSeek AI",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "audit": "npm audit",
+    "security-check": "npm audit && npx npm-check-updates"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "telegraf": "^4.16.3",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["twitter", "bot", "telegram", "deepseek", "ai", "secure"],
+  "author": "",
+  "license": "MIT"
+}
