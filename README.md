@@ -78,6 +78,3 @@ PORT=3000
 ## 📄 License
 
 MIT License - see package.json for details
-```
-
-This README is clean, minimal, and reflects your actual project structure while highlighting the key features and setup process.
